@@ -1,3 +1,22 @@
 body {
+    margin: auto;
+    padding: 0%;
+}
 
+
+.repo-list{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.repo-list li a{
+    padding: 12px;
+    margin: 5px;
+}
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 45%;
 }
